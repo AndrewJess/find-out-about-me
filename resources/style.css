@@ -3,10 +3,13 @@ html {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+a {
+    color: red;
+    text-decoration: none;
+}
 
 /*-------------------------------Header-----------------------------*/
 .nav {
-    height: 2rem;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap-reverse;
@@ -38,6 +41,7 @@ html {
 /*-------------------------------Career History-----------------------------*/
 .history {
     text-align: center;
+    margin-top: 3rem;
 }
 
 .history img {
@@ -54,6 +58,7 @@ html {
 /*-------------------------------New Skills-----------------------------*/
 .skills {
     text-align: center;
+    margin-top: 3rem;
 }
 
 
@@ -128,19 +133,76 @@ html {
 
 
 /*-------------------------------Projects-----------------------------*/
+.projects {
+    text-align: center;
+}
 
-
+.projects li {
+    list-style-type: none;
+    margin: 2rem;
+}
 
 /*-------------------------------Contact-----------------------------*/
+footer {
+    text-align: center;
+}
 
+footer a {
+    color: red;
+    font-size: 1.5rem;;
+}
 
 
 /*-------------------------------CONTACT PAGE-----------------------------*/
+.html2 {
+    text-align: center;
+}
 /*-------------------------------Header-----------------------------*/
 
 
 /*-------------------------------Contact Me-----------------------------*/
+.contactpage li {
+    list-style-type: none;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+.contactpage img {
+    height: 2rem;
+    margin: 1rem;
+}
 
-
+#github {
+    margin: 5rem;
+}
+#github img {
+    height: 2rem;
+}
+#github a {
+    font-size: 2rem;
+}
 
 /*-------------------------------Footer-----------------------------*/
+
+
+/*-------------------------------Responsive Design-----------------------------*/
+
+@media only screen and (max-width: 480px) {
+    header nav {
+        display: flex;
+        flex: wrap;
+        
+    }
+    
+
+    }
+    
+
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    
+        
+}
+
+
+
