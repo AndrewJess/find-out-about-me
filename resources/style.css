@@ -9,23 +9,30 @@ a {
 }
 
 /*-------------------------------Header-----------------------------*/
+header {
+    height: 1rem;
+}
+#me {
+    height: 10rem;
+    border-radius: 2rem;
+    margin-left: 10rem;
+}
 .nav {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap-reverse;
+    display: block;
+    float: right;
     font-size: 1.5rem;
+    margin-top: 2rem;
 }
 .nav a {
     text-decoration: none;
     font-weight: bold;
-    margin: 2rem;
     color:rgb(36, 76, 90);
+    margin: 2rem;
     }
 
 
 /*-------------------------------About Me-----------------------------*/
 .about {
-    display: block;
     text-align: center;
     margin-top: 5rem;
 }
@@ -74,9 +81,13 @@ a {
 .topics {
     display: grid;
     margin: auto;
+    grid-row: auto;
+    box-sizing: border-box;
     width: 75%;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     list-style-type: none;
+    color: blue;
+    font-weight: bold;
 }
 
 #html {
@@ -187,11 +198,25 @@ footer a {
 
 /*-------------------------------Responsive Design-----------------------------*/
 
-@media only screen and (max-width: 480px) {
-    header nav {
+@media only screen and (max-width: 480px) {    
+    .nav {
         display: flex;
-        flex: wrap;
-        
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .topics {
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        font-size: 2rem;
+        font-weight: bold;
+        color:blue;
+    }
+    .topics img {
+        display: none;
+    }
+    .about {
+        margin: 5%;
     }
     
 
