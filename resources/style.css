@@ -11,7 +11,7 @@ a {
 /*-------------------------------Header-----------------------------*/
 
 #mypic {
-    height: 10rem;
+    height: 15rem;
     border-radius: 2rem;
     margin-left: 10%;
     margin-top: 2%;
@@ -21,7 +21,7 @@ a {
     display: block;
     float: right;
     font-size: 1.5rem;
-    margin-top: 4rem;
+    margin-top: 7.5%;
 }
 .nav a {
     text-decoration: none;
@@ -33,9 +33,8 @@ a {
 
 /*-------------------------------About Me-----------------------------*/
 .about {
-    display: inline-block;
     text-align: center;
-    margin: 5%;
+    margin: 2%;
 }
 
 
@@ -177,18 +176,18 @@ footer a {
     list-style-type: none;
     font-size: 1.75rem;
     font-weight: bold;
-    margin: 1rem;
+    margin: 5%;
 }
 .contactpage img {
     height: 2rem;
-    margin: 1rem;
+    margin: 1%;
 }
 
 #github {
-    margin: 5rem;
+    margin: 7.5%;
 }
 #github img {
-    height: 2rem;
+    height: 2.5rem;
 }
 #github a {
     font-size: 2rem;
@@ -229,6 +228,10 @@ footer a {
         flex-wrap: wrap;
         margin: 5%;
     }
+    #feedback {
+        max-width: 85%;
+    }
+    
     
 
     }
@@ -256,6 +259,9 @@ footer a {
         display: flex;
         flex-wrap: wrap;
         margin: 5%;
+    }
+    #feedback {
+        max-width: 85%;
     }
     
         
