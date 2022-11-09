@@ -7,15 +7,15 @@ let outputHobbies = favHobbies[Math.floor(Math.random() * 5)];
 let outputNames = famNames[Math.floor(Math.random() * 5)];
 
 
-const printResponse = console.log(`#Find out a little bit more about me here.
-        *I live at home with ${outputNames} and some of my favourite food is ${outputFood}. 
-        *In my free time I really look forward to ${outputHobbies}.`)
+let printResponse = `*I live at home with ${outputNames} and some of my favourite food is ${outputFood}. 
+        *In my free time I really emjoy ${outputHobbies}.`;
 
 
 
-const meButton = document.getElementByID('me');
+const meButton = document.getElementById('me');
 
 meButton.onclick = function() {
-document.getElementById('me').InnerHTML = printResponse;
+        document.getElementsByClassName('moreAboutMe')[0].innerHTML = printResponse;
 }
+
 

@@ -146,6 +146,7 @@ a {
 /*-------------------------------Projects-----------------------------*/
 .projects {
     text-align: center;
+    background-color: rgb(196, 209, 209);
 }
 
 .projects li {
