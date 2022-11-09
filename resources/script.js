@@ -15,7 +15,7 @@ const printResponse = console.log(`#Find out a little bit more about me here.
 
 const meButton = document.getElementByID('me');
 
-meButton.addEventListener('click', () => {
-document.getElementById.InnerHTML = printResponse;
-})
+meButton.onclick = function() {
+document.getElementById('me').InnerHTML = printResponse;
+}
 
